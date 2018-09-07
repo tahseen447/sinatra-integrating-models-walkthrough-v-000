@@ -10,3 +10,7 @@ class TextAnalyzer
     words = text.split(' ')
     words.count
   end
+
+  def count_of_vowels
+    vowels = text.scan(/[aieou]/).count
+  end
