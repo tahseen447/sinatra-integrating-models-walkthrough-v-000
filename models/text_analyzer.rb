@@ -14,3 +14,7 @@ class TextAnalyzer
   def count_of_vowels
     vowels = text.scan(/[aieou]/).count
   end
+
+  def count_of_consonants
+    text.scan(/[bcdfghjklmnpqrstvwxyz]/).count
+  end
